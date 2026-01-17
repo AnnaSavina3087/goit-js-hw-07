@@ -36,4 +36,4 @@ function createMarkup(arr) {
     })
     .join(``);
 }
-galeryList.innerHTML = createMarkup(images);
+galeryList.insertAdjacentHTML("beforeend", createMarkup(images));
